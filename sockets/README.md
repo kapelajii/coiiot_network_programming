@@ -18,6 +18,9 @@ Protocol
 ## Python socket
 
 ### Client socket
+
+Create new socket communication using host and port
+
 ```python
 import socket
 
