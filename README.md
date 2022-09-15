@@ -6,11 +6,12 @@
 
 ![](course_logo.png)
 
-info
-last updated
+info: last updated
 
 ## Table of Contents
-
+- [**Course Description**](#course-description)
+- [**Prerequisite**](#prerequisite)
+- [**Course Outline**](#course-outline)
 
 ## Course Description
 The target of the learning module is that the student can develop distributed information systems for the field of industrial automation and IIoT. The contents of the course are the following:
