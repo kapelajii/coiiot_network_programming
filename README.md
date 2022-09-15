@@ -10,6 +10,7 @@ info: last updated
 
 ## Table of Contents
 - [**Course Description**](#course-description)
+- [**Intended Learning Outcomes**](#intended-learning-outcomes)
 - [**Prerequisite**](#prerequisite)
 - [**Course Outline**](#course-outline)
 
