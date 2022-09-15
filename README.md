@@ -4,7 +4,7 @@
 
 # Principles of network programming
 
-![](intro_img.png)
+![](course_logo.png)
 
 info
 last updated
