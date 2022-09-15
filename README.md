@@ -1,6 +1,6 @@
 # 2020-1-FI01-KA203-43 Collaborative IOT- Project (Erasmus+)
 
-![](intro_img.png)
+![](project_logo.png)
 
 # Principles of network programming
 
