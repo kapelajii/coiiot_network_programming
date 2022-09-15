@@ -17,9 +17,9 @@ The target of the learning module is that the student can develop distributed in
 
 - Principles of network programming
 
--client-server-based architecture
+- client-server-based architecture
 
--sockets
+- sockets
 
 - concurrent programming
 
