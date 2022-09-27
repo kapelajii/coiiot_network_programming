@@ -50,6 +50,11 @@ In addition, the student can develop a simple web application, which receives th
 
 ## Course Outline
 
+Class|Topics|Slides|Tutorial|Load|ETF|Homework|
+|:----|:-----|:----|:-----|:-----|:-----|:-----|
+|Class 01|**Introduction**|[slide](lecture/clss01_introduction)||0.5|Jan 05||
+
+
 ### Lecture Video
 
 ## Tasks
