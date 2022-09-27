@@ -25,7 +25,7 @@ The target of the learning module is that the student can develop distributed in
 
 - concurrent programming
 
-- REST API (Nodejs Marko + mongodb) (Juha Python Flask sqlite)
+- REST API (Nodejs+mongodb, Python Flask sqlite)
 
 - MQTT
 
