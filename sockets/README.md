@@ -112,7 +112,7 @@ PORT = 8991
 Lets build our first simple socket server.
 
 ```python
-
+# socket object parameters 
 socket(family, type) 
 
 ```
