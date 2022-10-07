@@ -109,7 +109,15 @@ PORT = 8991
 
 ### Socket server
 
-Lets build our first simple socket server. First we need to define which kind of protocol we are running on our server. 
+Lets build our first simple socket server. First we need to define which kind of address family we are running on our server. 
+Python socket module support different address families and selected family defines used communication protocol
+example:
+- AF_UNIX
+- AF_INET
+- AF_INET6
+
+
+
 
 ```python
 import socket
