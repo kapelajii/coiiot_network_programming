@@ -72,7 +72,7 @@ HTTPS (secure web browsing) port 443
 ![image](img/socket_image_3.png)
 TCP Socket flow
 
-## Socket client example (Python)
+## Socket communication example (Python)
 
 Python socket module provides access to the BSD socket interface.
 [Python socket library documentation](https://docs.python.org/3/library/socket.html)
@@ -107,7 +107,23 @@ PORT = 8991
 
 ```
 
-![image](https://user-images.githubusercontent.com/56770127/194543633-18f2f453-a79a-41a7-ac93-bcc82a2d7861.png)
+### Socket server
+
+Lets build our first simple socket server. First we need to define which kind of protocol we are running on our server. 
+
+```python
+import socket
+
+HOST = "127.0.0.1"
+PORT = 8991
+
+# Build TCP socket server
+tcp_server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+tcp_server.bind((HOST,PORT))
+
+```
+
+
 
 
 
