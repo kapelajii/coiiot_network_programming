@@ -52,7 +52,7 @@ In addition, the student can develop a simple web application, which receives th
 
 Class|Topics|Slides|Tutorial|Load|ETF|Homework|
 |:----|:-----|:----|:-----|:-----|:-----|:-----|
-|Class 01|**Introduction**|[slide](sockets/)||0.5|Jan 05||
+|Class x|**Sockets**|[slide](sockets/)||x|x||
 
 
 ### Lecture Video
