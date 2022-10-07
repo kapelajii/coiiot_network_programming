@@ -127,7 +127,7 @@ Address families
 - AF_CAN
 - AF_PACKET
 - AF_RDS
-- 
+
 > A pair (host, port) is used for the AF_INET address family, where host is a string representing either a hostname in internet domain notation like 'daring.cwi.nl' or > an IPv4 address like '100.50.200.5', and port is an integer.
 
 [Python socket documentation - socket families](https://docs.python.org/3/library/socket.html#module-socket)
