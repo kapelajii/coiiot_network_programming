@@ -148,8 +148,21 @@ import socket
 HOST = "127.0.0.1"
 PORT = 8991
 
+```
+
+> socket(family=AF_INET, type=SOCK_STREAM, proto=0, fileno=None)
+> Create a new socket using the given address family, socket type and protocol number. 
+> 
+```python
+
 # Let's set up a server that uses the AF_INET address family and the TCP protocol
 tcp_server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+
+```
+> socket.bind(address)
+> Bind the socket to address. The socket must not already be bound. (The format of address depends on the address family — see above.)
+
+```python
 
 # let's bind the server to the IP address and port given above
 tcp_server.bind((HOST,PORT))
