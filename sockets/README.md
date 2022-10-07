@@ -74,15 +74,25 @@ TCP Socket flow
 
 ## Socket (Python)
 
-### Client socket
+Python socket module provides access to the BSD socket interface.
+[Python socket library documentation](https://docs.python.org/3/library/socket.html)
 
-Create new socket communication using host and port
+### Basic functions
+
+Socket functions and methods included this module are:
+
+- socket()
+- .bind()
+- .listen()
+- .accept()
+- .connect()
+- .connect_ex()
+- .send()
+- .recv()
+- .close()
 
 ```python
 import socket
-
-HOST = '127.0.01'
-PORT = 8190
 
 ```
 
