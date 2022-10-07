@@ -72,7 +72,7 @@ HTTPS (secure web browsing) port 443
 ![image](img/socket_image_3.png)
 TCP Socket flow
 
-## Python socket
+## Socket (Python)
 
 ### Client socket
 
