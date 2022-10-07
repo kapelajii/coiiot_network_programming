@@ -50,6 +50,13 @@ In addition, the student can develop a simple web application, which receives th
 
 ## Course Outline
 
+Tools and software required:
+- [Visual studio code](https://code.visualstudio.com/)
+- [Nodejs](https://nodejs.org/en/)
+- [Python](https://www.python.org/downloads/)
+- [Postman](https://www.postman.com/downloads/)
+- [MQTTBox](https://www.microsoft.com/en-us/p/mqttbox/9nblggh55jzg?activetab=pivot:overviewtab)
+
 Class|Topics|Slides|Tutorial|Load|ETF|Homework|
 |:----|:-----|:----|:-----|:-----|:-----|:-----|
 |Class x|**Sockets**|[slide](sockets/)||x|x||
