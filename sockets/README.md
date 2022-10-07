@@ -117,6 +117,8 @@ Address families
 - AF_INET (uses the Internet Protocol version 4, IPV4)
 - AF_INET6 (uses the Internet Protocol version 6, IPV6)
 
+> A pair (host, port) is used for the AF_INET address family, where host is a string representing either a hostname in internet domain notation like 'daring.cwi.nl' or > an IPv4 address like '100.50.200.5', and port is an integer.
+
 [Python socket documentation - socket families](https://docs.python.org/3/library/socket.html#module-socket)
 
 ```python
