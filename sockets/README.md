@@ -40,7 +40,7 @@ HTTP port 80
 HTTPS (secure web browsing) port 443
 
 ```
-[IANA.ORG -List of registered port numbers]([https://www.sciencedirect.com/topics/computer-science/registered-port](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml))
+[IANA.ORG -List of registered port numbers](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
 
 
 
