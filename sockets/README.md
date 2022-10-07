@@ -22,17 +22,32 @@ EXAMPLE: 192.168.100.55:8190
 ```
 - Sockets are commonly used for client and server interaction. Typical system configuration places the server on one machine, with the clients on other machines. The clients connect to the server, exchange information, and then disconnect.
 
-
-
-
-
-
-
-
-
-
-
 ## IP Address and port
+
+- Socket connection uses the TCP protocol for communication
+- IP address identifies the computer in the network
+- Port identifies the application or service running on the computer
+
+```
+Commonly used ports:
+
+FTP (File tranfer) port 21
+SSH (secure shell) port 22
+TELNET port 23
+SMTP (e-mail) port 25             
+DNS port 53
+HTTP port 80
+HTTPS (secure web browsing) port 443
+
+```
+[List of registered port numbers](https://www.sciencedirect.com/topics/computer-science/registered-port)
+
+
+
+
+
+
+
 
 ## Socket communication
 
