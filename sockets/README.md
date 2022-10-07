@@ -150,9 +150,6 @@ PORT = 8991
 
 ```
 
-> socket(family=AF_INET, type=SOCK_STREAM, proto=0, fileno=None)
-> Create a new socket using the given address family, socket type and protocol number. 
-> 
 ```python
 
 # Let's set up a server that uses the AF_INET address family and the TCP protocol
