@@ -156,9 +156,13 @@ tcp_server.bind((HOST,PORT))
 
 ```
 
+> Listen specifies the number of unaccepted connections that the system will allow before refusing new connections
 
+```python
 
+tcp_server.listen(5)
 
+```
 
 
 
