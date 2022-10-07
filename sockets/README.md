@@ -117,7 +117,7 @@ socket(family, type)
 
 ```
 
-First we need to define which kind of address family we are running on our server. 
+First we need to define which kind of address family and type our server uses. 
 Python socket module support different address families and selected family determines the format of the address structure to be used on socket 
 
 Address families
@@ -139,6 +139,8 @@ Selectable socket types are:
 - SOCK_DGRAM (UDP)
 - SOCK_RAW
 
+
+STEP 1. Create simple socket server
 
 ```python
 import socket
