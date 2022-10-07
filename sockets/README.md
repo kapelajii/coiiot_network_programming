@@ -70,10 +70,7 @@ HTTPS (secure web browsing) port 443
 
 
 ![image](https://user-images.githubusercontent.com/56770127/194495554-312bbe49-2270-457c-88c7-01c22e8582f9.png)
-
-
-
-
+Socket communication process
 
 ## Python socket
 
