@@ -133,11 +133,9 @@ Address families
 [Python socket documentation - socket families](https://docs.python.org/3/library/socket.html#module-socket)
 
 Selectable socket types are:
--SOCK_STREAM (TCP) **default**
--SOCK_DGRAM (UDP)
--SOCK_RAW
-
-
+- SOCK_STREAM (TCP) **default**
+- SOCK_DGRAM (UDP)
+- SOCK_RAW
 
 
 ```python
