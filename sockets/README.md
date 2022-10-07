@@ -53,14 +53,22 @@ HTTPS (secure web browsing) port 443
 ```
 [IANA.ORG -List of registered port numbers](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
 
-
-
-
-
-
-
-
 ## Socket communication
+
+Client setup
+1. Connect to same network with server
+2. Look up the address of a server
+3. Create client socket
+4. Connect to the server using ip address and port
+
+Server setup
+1. Create socket server
+2. Setup socket server
+3. Bind created socket to spesific port
+4. Listen for new connections from clients
+5. Accept new connections
+
+
 
 ## Python socket
 
