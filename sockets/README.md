@@ -138,9 +138,9 @@ Selectable socket types are:
 - SOCK_STREAM (TCP) **default**
 - SOCK_DGRAM (UDP)
 - SOCK_RAW
+__
 
-
-STEP 1. Create simple socket server
+**STEP 1. Create simple socket server**
 
 ```python
 import socket
