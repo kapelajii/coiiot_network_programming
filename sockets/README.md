@@ -36,7 +36,7 @@ EXAMPLE: 192.168.100.55:8190
 - IP address identifies the computer in the network
 - Port identifies the application or service running on the computer
 
-![image](https://user-images.githubusercontent.com/56770127/194486477-07d90b91-fe0c-41b2-93bd-cbf0f1654076.png)
+![image](img/socket_image_2.png)
 
 
 ```
@@ -69,7 +69,7 @@ HTTPS (secure web browsing) port 443
 5. Accept new connections
 
 
-![image](https://user-images.githubusercontent.com/56770127/194495554-312bbe49-2270-457c-88c7-01c22e8582f9.png)
+![image](img/socket_image_3.png)
 Socket communication process
 
 ## Python socket
