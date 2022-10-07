@@ -144,8 +144,10 @@ import socket
 HOST = "127.0.0.1"
 PORT = 8991
 
-# Create server which use AF_INET address family and TCP-protocol
+# Let's set up a server that uses the AF_INET address family and the TCP protocol
 tcp_server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+
+# let's bind the server to the IP address and port given above
 tcp_server.bind((HOST,PORT))
 
 ```
