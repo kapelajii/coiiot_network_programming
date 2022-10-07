@@ -111,12 +111,14 @@ PORT = 8991
 
 Lets build our first simple socket server. First we need to define which kind of address family we are running on our server. 
 Python socket module support different address families and selected family determines the format of the address structure to be used on socket 
+
 example:
+
 - AF_UNIX
 - AF_INET (uses the Internet Protocol version 4, IPV4)
 - AF_INET6 (uses the Internet Protocol version 6, IPV6)
 
-[Python socke - socket families documentation](https://docs.python.org/3/library/socket.html#module-socket)
+[Python socket documentation - socket families](https://docs.python.org/3/library/socket.html#module-socket)
 
 ```python
 import socket
