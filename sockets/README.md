@@ -11,7 +11,7 @@ active party that generates request, send them to a server and does something wi
 **Protocol**
 the language or set of rules how client and server communicate between each other. Servers and clients must use a common protocol to understand each other
 
-![image](img/socket_image1.png)
+![image](img/socket_image_1.png)
 
 **Course book**
 
