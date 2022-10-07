@@ -11,6 +11,9 @@ active party that generates request, send them to a server and does something wi
 **Protocol**
 the language or set of rules how client and server communicate between each other. Servers and clients must use a common protocol to understand each other
 
+![image](https://user-images.githubusercontent.com/56770127/194486628-646f5fe6-b5a6-471c-857e-122a3c1a1cda.png)
+
+
 ## Socket
 
 - A socket is a communications connection point (endpoint) that you can name and address in a network. 
