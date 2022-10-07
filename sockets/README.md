@@ -72,7 +72,7 @@ HTTPS (secure web browsing) port 443
 ![image](img/socket_image_3.png)
 TCP Socket flow
 
-## Socket (Python)
+## Socket example (Python)
 
 Python socket module provides access to the BSD socket interface.
 [Python socket library documentation](https://docs.python.org/3/library/socket.html)
@@ -81,7 +81,7 @@ Python socket module provides access to the BSD socket interface.
 
 Socket functions and methods included this module are:
 
-- socket()
+socket()
 - .bind()
 - .listen()
 - .accept()
@@ -90,6 +90,8 @@ Socket functions and methods included this module are:
 - .send()
 - .recv()
 - .close()
+
+In order to use these functionalities, the socket module must be imported. 
 
 ```python
 import socket
