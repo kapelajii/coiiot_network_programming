@@ -132,6 +132,8 @@ Address families
 
 [Python socket documentation - socket families](https://docs.python.org/3/library/socket.html#module-socket)
 
+[More information about Internet protocol](https://www.cloudflare.com/learning/network-layer/internet-protocol/)
+
 Selectable socket types are:
 - SOCK_STREAM (TCP) **default**
 - SOCK_DGRAM (UDP)
