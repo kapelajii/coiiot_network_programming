@@ -156,7 +156,6 @@ PORT = 8991
 tcp_server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
 ```
-> socket.bind(address)
 > Bind the socket to address. The socket must not already be bound. (The format of address depends on the address family — see above.)
 
 ```python
