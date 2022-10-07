@@ -175,7 +175,16 @@ tcp_server.listen(5)
 
 ```
 
+**STEP 3. Communication loop**
 
+```python
 
+While True:
+  comm_socket, address = tcp_server.accept()
+  print(f"connected to {address})
+  data = comm_socket.recv(1024).decode('utf-8')
+  print(f"Data from client: {data})
+
+```
 
 
