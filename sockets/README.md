@@ -156,6 +156,8 @@ tcp_server.bind((HOST,PORT))
 
 ```
 
+**STEP 2. Enable a server to accept connections**
+
 > Listen specifies the number of unaccepted connections that the system will allow before refusing new connections
 
 ```python
