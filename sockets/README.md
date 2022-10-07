@@ -13,7 +13,7 @@ the language or set of rules how client and server communicate between each othe
 
 ![image](https://user-images.githubusercontent.com/56770127/194486706-c60f3dd2-f4cb-40d0-ae08-c10b3f8316c5.png)
 
-Course book
+**Course book**
 
 [Stevens W. R., Fenner B., Rudolf A.M: UNIX Network Programming, Volume 1, 3rd Edition , Addison Wesley, 2004. The course covers the chapters 1-8, 11-17, 20-26 and 30 plus Appendixes A-D of the course book.](https://github.com/sqm2050/wiki/blob/master/Books/c%26programme/UNIX%20Network%20Programming%2C%20Volume%201%2C%20Third%20Edition%2C%20The%20Sockets%20Networking%20API.pdf)
 
