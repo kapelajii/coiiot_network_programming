@@ -109,17 +109,36 @@ PORT = 8991
 
 ### Socket server
 
-Lets build our first simple socket server. First we need to define which kind of address family we are running on our server. 
+Lets build our first simple socket server.
+
+```python
+
+socket(family, type) 
+
+```
+
+First we need to define which kind of address family we are running on our server. 
 Python socket module support different address families and selected family determines the format of the address structure to be used on socket 
 
 Address families
 - AF_UNIX
-- AF_INET (uses the Internet Protocol version 4, IPV4)
+- AF_INET (uses the Internet Protocol version 4, IPV4) **default**
 - AF_INET6 (uses the Internet Protocol version 6, IPV6)
-
+- AF_CAN
+- AF_PACKET
+- AF_RDS
+- 
 > A pair (host, port) is used for the AF_INET address family, where host is a string representing either a hostname in internet domain notation like 'daring.cwi.nl' or > an IPv4 address like '100.50.200.5', and port is an integer.
 
 [Python socket documentation - socket families](https://docs.python.org/3/library/socket.html#module-socket)
+
+Selectable socket types are:
+-SOCK_STREAM (TCP) **default**
+-SOCK_DGRAM (UDP)
+-SOCK_RAW
+
+
+
 
 ```python
 import socket
