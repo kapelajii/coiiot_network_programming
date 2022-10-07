@@ -97,7 +97,15 @@ In order to use these functionalities, the socket module must be imported.
 import socket
 
 ```
+Next, the IP address and port of the socket server are defined. The IP address must be entered as a string and the port as an integer
 
+```python
+import socket
+
+HOST = "127.0.0.1"
+PORT = 8991
+
+```
 
 ![image](https://user-images.githubusercontent.com/56770127/194543633-18f2f453-a79a-41a7-ac93-bcc82a2d7861.png)
 
