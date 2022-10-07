@@ -107,10 +107,6 @@ PORT = 8991
 
 ```
 
-### Socket server
-
-Lets build our first simple socket server.
-
 ```python
 # socket object parameters 
 socket(family, type) 
@@ -139,6 +135,10 @@ Selectable socket types are:
 - SOCK_DGRAM (UDP)
 - SOCK_RAW
 __
+
+### Socket server
+
+Lets build our first simple socket server.
 
 **STEP 1. Create simple socket server**
 
