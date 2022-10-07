@@ -36,7 +36,6 @@ EXAMPLE: 192.168.100.55:8190
 - IP address identifies the computer in the network
 - Port identifies the application or service running on the computer
 
-
 ![image](https://user-images.githubusercontent.com/56770127/194486477-07d90b91-fe0c-41b2-93bd-cbf0f1654076.png)
 
 
