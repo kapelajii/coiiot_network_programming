@@ -11,10 +11,26 @@ active party that generates request, send them to a server and does something wi
 **Protocol**
 the language or set of rules how client and server communicate between each other. Servers and clients must use a common protocol to understand each other
 
-![image](https://user-images.githubusercontent.com/56770127/194484545-d1dad302-f2fb-4d64-87b0-b7c4de3a35c8.png)
-
-
 ## Socket
+
+- A socket is a communications connection point (endpoint) that you can name and address in a network. 
+- Endpoint consists of an IP address and a port number 
+
+```
+[IP ADDRESS]: [PORT NUMBER]
+EXAMPLE: 192.168.100.55:8190
+```
+- Sockets are commonly used for client and server interaction. Typical system configuration places the server on one machine, with the clients on other machines. The clients connect to the server, exchange information, and then disconnect.
+
+
+
+
+
+
+
+
+
+
 
 ## IP Address and port
 
