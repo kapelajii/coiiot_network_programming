@@ -187,8 +187,8 @@ While True:
   print(f"connected to client:  {address})
 
 ```
-> Receive data from the socket. The return value is a bytes object representing the data received from socket
-> convert bytes to (utf-8) string using decode function
+> Receive data from the socket. The return value is a bytes object representing the data received from socket.
+> Convert bytes to (utf-8) string format using decode function
 
 ```python
 
