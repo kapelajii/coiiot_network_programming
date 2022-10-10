@@ -172,6 +172,7 @@ tcp_server.bind((HOST,PORT))
 ```python
 
 tcp_server.listen(5)
+print("Server running...)
 
 ```
 
@@ -183,7 +184,7 @@ tcp_server.listen(5)
 ```python
 
 While True:
-  comm_socket, address = tcp_server.accept()
+  communication_socket, address = tcp_server.accept()
   print(f"connected to client:  {address})
 
 ```
@@ -192,8 +193,17 @@ While True:
 
 ```python
 
-  data = comm_socket.recv(1024).decode('utf-8')
-  print(f"Data from client: {data})
+  data_from_client = communication_socket.recv(1024).decode('utf-8')
+  print(f"Data from client: {data_from_client})
 
 ```
+```python
+  # Response message to client
+  communication_socket.send("f OK".encode('utf-8))
+  
+  communication_socket.close()
+  print(f"connection with client {address} closed)
+
+```
+
 
