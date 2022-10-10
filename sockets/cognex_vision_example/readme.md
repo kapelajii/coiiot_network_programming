@@ -32,7 +32,7 @@ In this example data is stored in spreadsheet cell C7 inside Cognex insight expl
 Implement socket application that creates a socket connection,  send a message to the socket (take a picture) validates the response from the socket and then reads the values from cell C7 of the spreadsheet if earlier request  success.
 
 
-**1. What is command and paramter to Acquire an image and update the spreadsheet?**
+**1. What is command and parameter to Acquire an image and update the spreadsheet?**
 
 Read documentation below 👇
 
@@ -47,7 +47,7 @@ SW8
 </details>
 
 
-**2. What is command and paramter to read value from spreadsheet cell c7?**
+**2. What is command and parameter to read value from spreadsheet cell c7?**
 
 Read documentation below 👇
 
