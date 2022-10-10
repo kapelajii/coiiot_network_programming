@@ -70,6 +70,16 @@ GVC007
 ```
 </details>
 
+**3. What is return value from server if Acquire an image command succeed?**
+
+<details>
+<summary>Answer</summary>
+
+```
+1
+```
+</details>
+
 
 
 
