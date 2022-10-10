@@ -38,6 +38,14 @@ Read documentation below 👇
 
 [Cognex documentation- Set event and wait](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/SetEventAndWait.htm)
 
+<details>
+<summary>Answer</summary>
+
+```
+SW8
+```
+</details>
+
 
 **2. What is command and paramter to read value from spreadsheet cell c7?**
 
@@ -45,7 +53,13 @@ Read documentation below 👇
 
 [Cognex documentation - Get value from spreadsheet](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/GetValue_Spreadsheet.htm)
 
+<details>
+<summary>Answer</summary>
 
+```
+GVC007
+```
+</details>
 
 
 
