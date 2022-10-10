@@ -3,11 +3,6 @@
 <img src="abb_cognex_communication.png">
 
 
-
-[Documentation- Set event and wait](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/SetEventAndWait.htm)
-
-[Documentation - Get cell value](https://support.cognex.com/docs/is_580/web/EN/ezb/Content/Communications_Reference/GetCellValue.htm)
-
 > The In-Sight Native Mode protocol is an ASCII protocol that allows an In-Sight sensor to be controlled from any of the following:
 
 > - Custom application programs running on a PC.
@@ -26,3 +21,8 @@
 > Commands that get values return various values, depending on the command.
 
 Source: [Cognex cocumentation - Native mode commands](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/NativeMode_Commands.htm?tocpath=Communication%20Reference%7CNative%20Mode%20Communications%7C_____1)
+
+
+[Documentation- Set event and wait](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/SetEventAndWait.htm)
+
+[Documentation - Get cell value](https://support.cognex.com/docs/is_580/web/EN/ezb/Content/Communications_Reference/GetCellValue.htm)
