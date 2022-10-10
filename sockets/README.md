@@ -202,7 +202,7 @@ while True:
 > The opposite method of bytes.decode() is str.encode(), which returns a bytes representation of the Unicode string, encoded in the requested encoding.
 
 ```python
-   # Response message to client
+
   communication_socket.send("f OK".encode('utf-8'))
   
   communication_socket.close()
