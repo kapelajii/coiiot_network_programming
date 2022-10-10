@@ -23,10 +23,6 @@
 Source: [Cognex cocumentation - Native mode commands](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/NativeMode_Commands.htm?tocpath=Communication%20Reference%7CNative%20Mode%20Communications%7C_____1)
 
 
-[Documentation- Set event and wait](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/SetEventAndWait.htm)
-
-[Documentation - Get cell value](https://support.cognex.com/docs/is_580/web/EN/ezb/Content/Communications_Reference/GetCellValue.htm)
-
 ## Excersice 1. Telnet client to read data from machine vision camera
 
 In this excersice we desing socket client (Telnet) wich can trigger camera and read position data.
@@ -35,6 +31,8 @@ In this example data is stored in spreadsheet cell C7 inside Cognex insight expl
 
 Implement
 an socket application that creates a socket connection,  send a message to the socket (take a picture) validates the response from the socket and then reads the values from cell C7 of the spreadsheet if earlier request  sucess.
+
+[Cognex documentation- Set event and wait](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/SetEventAndWait.htm)
 
 [Cognex documentation - Get value from spreadsheet](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/GetValue_Spreadsheet.htm)
 
