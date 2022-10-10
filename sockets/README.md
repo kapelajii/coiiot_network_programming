@@ -214,7 +214,7 @@ while True:
 
 
 <details>
-<summary>Server sourcecode</summary>
+<summary>Server source code</summary>
   
 ```python
 
@@ -300,7 +300,7 @@ print(data_from_socket)
 ```
 
 <details>
-<summary>Client sourcecode</summary>
+<summary>Client source code</summary>
 
 ```python
 import socket
