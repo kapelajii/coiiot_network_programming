@@ -240,3 +240,15 @@ my_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 my_socket.connect((HOST,PORT))
 
 ```
+
+**STEP 3. Send message to socket**
+
+> Send data to the socket. The socket must be connected to a remote socket.
+> The opposite method of bytes.decode() is str.encode(), which returns a bytes representation of the Unicode string, encoded in the requested encoding.
+
+
+```python
+
+my_socket.send("My message".encode('utf-8'))
+
+```
