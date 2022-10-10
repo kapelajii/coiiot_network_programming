@@ -252,3 +252,11 @@ my_socket.connect((HOST,PORT))
 my_socket.send("My message".encode('utf-8'))
 
 ```
+> Read data from socket after sending (response message from server)
+
+```python
+
+data_from_socket = my_socket.recv(1024).decode('utf-8')
+print(data_from_socket)
+
+```
