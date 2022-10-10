@@ -32,9 +32,13 @@ In this example data is stored in spreadsheet cell C7 inside Cognex insight expl
 Implement socket application that creates a socket connection,  send a message to the socket (take a picture) validates the response from the socket and then reads the values from cell C7 of the spreadsheet if earlier request  success.
 
 Cognex simulator
+
 (file: cognex_simulator.py)
+
 IP address: 127.0.0.1
+
 PORT: 10001
+
 data format: "x-coordinate, y-coordinate, orientation"
 
 **1. What is command and parameter to Acquire an image and update the spreadsheet?**
