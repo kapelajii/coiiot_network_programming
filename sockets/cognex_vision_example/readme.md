@@ -12,7 +12,8 @@
 
 > - Custom application programs running on a PC.
 > - Remote hosts that support standard serial communications.
-> -Telnet over an Ethernet network.
+> - Telnet over an Ethernet network.
+
 > The Native Mode protocol is divided into two sets of commands: Basic and Extended.
 > - Basic Native Mode commands are two characters long, plus parameters (if any) and a terminator character.
 > - Extended Native Mode commands include additional functions or commands.
