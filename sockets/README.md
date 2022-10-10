@@ -215,6 +215,7 @@ while True:
 
 <details>
 <summary>Server sourcecode</summary>
+  
 ```python
 
 import socket
@@ -243,7 +244,8 @@ communication_socket.send("f OK".encode('utf-8'))
 communication_socket.close()
 print(f"connection with client {address} closed")
 
-```    
+``` 
+  
 </details>
 
 ### Socket client
