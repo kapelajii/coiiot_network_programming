@@ -197,6 +197,10 @@ While True:
   print(f"Data from client: {data_from_client})
 
 ```
+
+> Send data to the socket. The socket must be connected to a remote socket.
+> The opposite method of bytes.decode() is str.encode(), which returns a bytes representation of the Unicode string, encoded in the requested encoding.
+
 ```python
   # Response message to client
   communication_socket.send("f OK".encode('utf-8))
