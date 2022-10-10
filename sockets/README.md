@@ -210,4 +210,5 @@ while True:
 
 ```
 
+> Server is ready and if you run the program you should see "server running.." -message in command prompt. This mean server is running and waiting clients to connect
 
