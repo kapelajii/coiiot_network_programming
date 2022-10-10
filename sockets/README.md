@@ -219,6 +219,7 @@ Lets build socket client to test our server
 **STEP 1. Create simple socket client**
 
 > As in the server's program code, the necessary libraries and the server's IP address and port are initialized
+> The IP address and port must be the same as on the Server
 
 ```python
 import socket
