@@ -212,3 +212,19 @@ while True:
 
 > Server is ready and if you run the program you should see "server running.." -message in command prompt. This mean server is running and waiting clients to connect
 
+### Socket client
+
+Lets build socket client to test our server
+
+**STEP 1. Create simple socket client**
+
+> As in the server's program code, the necessary libraries and the server's IP address and port are initialized
+
+```python
+import socket
+
+HOST = "127.0.0.1"
+PORT = 10001
+
+```
+
