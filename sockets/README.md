@@ -231,3 +231,12 @@ my_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
 ```
 
+**STEP 2. Connect to server**
+
+> Connect to a remote socket at address. (The format of address depends on the address family — see above.)
+
+```python
+
+my_socket.connect((HOST,PORT))
+
+```
