@@ -246,7 +246,9 @@ print(f"connection with client {address} closed")
 
 ``` 
   
-</details>
+</details>d
+
+--
 
 ### Socket client
 
