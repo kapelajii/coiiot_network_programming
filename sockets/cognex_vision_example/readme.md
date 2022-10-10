@@ -26,7 +26,7 @@ Source: [Cognex cocumentation - Native mode commands](https://support.cognex.com
 ## Excersice 1. Telnet client to read data from machine vision camera
 
 In this excersice we desing socket client (Telnet) wich can trigger camera and read position data.
-Camera is connected to robot and robot needs part x, y coordiantes and orientation to locate part for picking using machine vision
+Camera is connected to robot and robot needs part x, y coordiantes and orientation to locate part for picking using machine vision.
 In this example data is stored in spreadsheet cell C7 inside Cognex insight explorer Spreadsheet View. 
 
 Implement
