@@ -146,7 +146,7 @@ Lets build our first simple socket server.
 import socket
 
 HOST = "127.0.0.1"
-PORT = 8991
+PORT = 10001
 
 ```
 
@@ -203,7 +203,7 @@ while True:
 
 ```python
 
-  communication_socket.send("f OK".encode('utf-8'))
+  communication_socket.send("OK".encode('utf-8'))
   
   communication_socket.close()
   print(f"connection with client {address} closed")
