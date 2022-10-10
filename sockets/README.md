@@ -246,7 +246,7 @@ print(f"connection with client {address} closed")
 
 ``` 
   
-</details>d
+</details>
 
 --
 
