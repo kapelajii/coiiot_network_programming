@@ -1,7 +1,7 @@
 import socket
 
 HOST = "127.0.0.1"
-PORT = 8991
+PORT = 10001
 
 # Let's set up a server that uses the AF_INET address family and the TCP protocol
 tcp_server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
