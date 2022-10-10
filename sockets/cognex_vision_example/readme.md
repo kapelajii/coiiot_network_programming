@@ -39,7 +39,7 @@ Read documentation below 👇
 [Cognex documentation- Set event and wait](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/SetEventAndWait.htm)
 
 
-**2. What is command paramter to read value from spreadsheet cell c7?**
+**2. What is command and paramter to read value from spreadsheet cell c7?**
 
 Read documentation below 👇
 
