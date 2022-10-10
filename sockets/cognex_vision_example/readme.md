@@ -31,7 +31,7 @@ In this example data is stored in spreadsheet cell C7 inside Cognex insight expl
 
 Implement socket application that creates a socket connection,  send a message to the socket (take a picture) validates the response from the socket and then reads the values from cell C7 of the spreadsheet if earlier request  success.
 
-Cognex simulator
+**Cognex simulator**
 
 (file: cognex_simulator.py)
 
