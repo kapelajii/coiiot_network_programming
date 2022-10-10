@@ -5,9 +5,9 @@
 
 > The In-Sight Native Mode protocol is an ASCII protocol that allows an In-Sight sensor to be controlled from any of the following:
 
-> - Custom application programs running on a PC.
-> - Remote hosts that support standard serial communications.
-> - Telnet over an Ethernet network.
+> - Custom application programs running on a PC
+> - Remote hosts that support standard serial communications
+> - **Telnet over an Ethernet network**
 
 > The Native Mode protocol is divided into two sets of commands: Basic and Extended.
 > - Basic Native Mode commands are two characters long, plus parameters (if any) and a terminator character.
