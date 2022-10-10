@@ -260,3 +260,11 @@ data_from_socket = my_socket.recv(1024).decode('utf-8')
 print(data_from_socket)
 
 ```
+1. First item with a hidden code block
+    <details>
+      <summary>Example</summary>
+
+      ```
+      long console output here
+      ```
+    </details>
