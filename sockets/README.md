@@ -239,7 +239,7 @@ print(f"connected to client:  {address}")
 data_from_client = communication_socket.recv(1024).decode('utf-8')
 print(f"Data from client: {data_from_client}")
  # Response message to client
-communication_socket.send("f OK".encode('utf-8'))
+communication_socket.send("OK".encode('utf-8'))
 
 communication_socket.close()
 print(f"connection with client {address} closed")
