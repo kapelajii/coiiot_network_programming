@@ -172,7 +172,7 @@ tcp_server.bind((HOST,PORT))
 ```python
 
 tcp_server.listen(5)
-print("Server running...)
+print("Server running...")
 
 ```
 
@@ -183,9 +183,9 @@ print("Server running...)
 
 ```python
 
-While True:
+while True:
   communication_socket, address = tcp_server.accept()
-  print(f"connected to client:  {address})
+  print(f"connected to client:  {address}")
 
 ```
 > Receive data from the socket. The return value is a bytes object representing the data received from socket.
@@ -194,7 +194,7 @@ While True:
 ```python
 
   data_from_client = communication_socket.recv(1024).decode('utf-8')
-  print(f"Data from client: {data_from_client})
+  print(f"Data from client: {data_from_client}")
 
 ```
 
@@ -202,11 +202,11 @@ While True:
 > The opposite method of bytes.decode() is str.encode(), which returns a bytes representation of the Unicode string, encoded in the requested encoding.
 
 ```python
-  # Response message to client
-  communication_socket.send("f OK".encode('utf-8))
+   # Response message to client
+  communication_socket.send("f OK".encode('utf-8'))
   
   communication_socket.close()
-  print(f"connection with client {address} closed)
+  print(f"connection with client {address} closed")
 
 ```
 
