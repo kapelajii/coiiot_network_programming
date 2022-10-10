@@ -32,13 +32,15 @@ In this example data is stored in spreadsheet cell C7 inside Cognex insight expl
 Implement socket application that creates a socket connection,  send a message to the socket (take a picture) validates the response from the socket and then reads the values from cell C7 of the spreadsheet if earlier request  success.
 
 
-1. what is command paramter to Acquire an image and update the spreadsheet?
+**1. what is command and paramter to Acquire an image and update the spreadsheet?**
 Read documentation below 👇
+
 [Cognex documentation- Set event and wait](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/SetEventAndWait.htm)
 
 
-2. what is command paramter to read value from spreadsheet cell c7?
+**2. What is command paramter to read value from spreadsheet cell c7?**
 Read documentation below 👇
+
 [Cognex documentation - Get value from spreadsheet](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/GetValue_Spreadsheet.htm)
 
 
