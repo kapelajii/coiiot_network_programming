@@ -184,10 +184,16 @@ tcp_server.listen(5)
 
 While True:
   comm_socket, address = tcp_server.accept()
-  print(f"connected to {address})
+  print(f"connected to client:  {address})
+
+```
+> Receive data from the socket. The return value is a bytes object representing the data received from socket
+> convert bytes to (utf-8) string using decode function
+
+```python
+
   data = comm_socket.recv(1024).decode('utf-8')
   print(f"Data from client: {data})
 
 ```
-
 
