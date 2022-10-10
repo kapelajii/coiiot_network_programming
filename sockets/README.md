@@ -227,5 +227,7 @@ import socket
 HOST = "127.0.0.1"
 PORT = 10001
 
+my_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+
 ```
 
