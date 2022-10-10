@@ -29,8 +29,7 @@ In this excersice we desing socket client (Telnet) wich can trigger camera and r
 Camera is connected to robot and robot needs part x, y coordiantes and orientation to locate part for picking using machine vision.
 In this example data is stored in spreadsheet cell C7 inside Cognex insight explorer Spreadsheet View. 
 
-Implement
-an socket application that creates a socket connection,  send a message to the socket (take a picture) validates the response from the socket and then reads the values from cell C7 of the spreadsheet if earlier request  sucess.
+Implement socket application that creates a socket connection,  send a message to the socket (take a picture) validates the response from the socket and then reads the values from cell C7 of the spreadsheet if earlier request  sucess.
 
 [Cognex documentation- Set event and wait](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/SetEventAndWait.htm)
 
