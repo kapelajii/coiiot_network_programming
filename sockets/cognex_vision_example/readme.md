@@ -26,3 +26,12 @@ Source: [Cognex cocumentation - Native mode commands](https://support.cognex.com
 [Documentation- Set event and wait](https://support.cognex.com/docs/is_613/web/EN/ise/Content/Communications_Reference/SetEventAndWait.htm)
 
 [Documentation - Get cell value](https://support.cognex.com/docs/is_580/web/EN/ezb/Content/Communications_Reference/GetCellValue.htm)
+
+## Excersice Telnet client to read data from machine vision camera
+
+In this excersice we desing socket client (Telnet) wich can trigger camerera and read position data from camera
+
+
+
+
+
