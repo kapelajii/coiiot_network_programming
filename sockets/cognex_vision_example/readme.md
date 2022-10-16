@@ -41,6 +41,7 @@ PORT: 10001
 
 data format: "x-coordinate, y-coordinate, orientation"
 
+
 **1. What is command and parameter to Acquire an image and update the spreadsheet?**
 
 Read documentation below 👇
